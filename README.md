@@ -1,1 +1,1 @@
-# volumizer-chrome-extension
+# volumixer
