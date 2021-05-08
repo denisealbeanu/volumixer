@@ -1,10 +1,27 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Volumixer</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+        width: 275px;
+        height: 1200px;
+        }
+        input {
+        display: block;
+        margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+        }
+        #vol {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h2>VoluMixer</h2>
+    <input type="range" min="0" max="100" step= "1" value="0" id="vol" />
+
     <script src="popup.js"></script>
-  </head>
-  <body>
-    <h1>Volumixer</h1>
-  </body>
+</body>
 </html>
